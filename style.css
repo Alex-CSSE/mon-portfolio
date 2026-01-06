@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #090b0a;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: #ffffff;
+    color: rgb(8, 7, 7);
+    border-radius: 8px;
+}
+
+h2 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.projet-card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-button {
+    display: inline-block;
+    background-color: #059e0d;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #2980b9;
+}
+.job {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #059e0d; /* Une barre bleue sur le côté pour souligner l'expérience */
+    margin-bottom: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between; /* Met le titre à gauche et la date à droite */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.job-date {
+    background: #ecf0f1;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+.job-company {
+    color: #0ba434;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
